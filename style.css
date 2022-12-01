@@ -7,12 +7,14 @@
 
 /*SCARICA FONT*/
 body{
-    font-family: ;
+    font-family: 'Fredoka', sans-serif;
     text-align: center;
 }
 
 h1{
     color: #e4306f;
+    font-weight: 900;
+    margin-top: 40px;
 }
 
 a{
@@ -25,14 +27,37 @@ a{
     text-align: center;
 }
 
+.lorem{
+    margin: 30px -30px;
+}
+
 img{
-    max-width: 40%;
+    max-width: 30%;
     float: left;
 }
 
+.row{
+    margin: 0px;
+    
+}
+
+/*vedi come fare con width: calc(100% /3);*/
 .column{
     color: white;
     float: left;
     background-color: #0f0e17;
-    width: calc(100% /3);
+    width: 380px;
+    
+}
+
+/*poi rivedi meglio se si può fare con dei selettori*/
+
+.first-row{
+    margin-bottom: 30px;
+}
+
+.middle-column{
+    margin-left: 15px;
+    margin-right: 15px;
+
 }

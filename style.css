@@ -8,16 +8,31 @@
 /*SCARICA FONT*/
 body{
     font-family: ;
-}*/
+    text-align: center;
+}
+
+h1{
+    color: #e4306f;
+}
+
+a{
+    color: #73c1f9;
+}
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    
+}
+
+img{
+    max-width: 40%;
+    float: left;
 }
 
 .column{
+    color: white;
     float: left;
-    width: calc(100%/3);
+    background-color: #0f0e17;
+    width: calc(100% /3);
 }

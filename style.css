@@ -5,8 +5,19 @@
     box-sizing: border-box;
 }
 
+/*SCARICA FONT*/
+body{
+    font-family: ;
+}*/
+
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
     
+}
+
+.column{
+    float: left;
+    width: calc(100%/3);
 }
